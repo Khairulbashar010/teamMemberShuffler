@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("semantic-ui-css/semantic.css");
+body{
+    background-color: #000;
+}
+button{
+    border-radius: 4px;
+    border: 1px;
+}
+input{
+    border: none;
+    border-bottom: .1rem solid gray;
+    background-color: #000;
+    color: #aaa;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:focus-visible, input:focus{
+    outline: unset;
+}
+
+.ui.card{
+    background-color: transparent;
+}
+.ui.card:first-child {
+    margin-top: 3.5em;
+}
+.ui.card:last-child {
+    margin-bottom: 3.5em;
+}
+.error-message {
+    color:red;
+}
